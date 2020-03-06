@@ -15,6 +15,7 @@ router.get('/', function(req, res, next) {
 	      data1 = base64,
 	      obj = {
                 // "src": url.href,
+                "status": "success",
                 "data": data1
               };
 
